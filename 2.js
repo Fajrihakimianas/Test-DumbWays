@@ -1,11 +1,14 @@
 function filterArr() {
     var a = [
+        "apa",
         "saya",
-        "apa"
+        "anda",
+        "kamu",
+        "halo"
     ];
 
     var b = [
-        "apa apa yang anda lakukan?", 
+        "apa yang anda lakukan?", 
         "apa selamat pagi", 
         "kamu ternyata cantik juga ya", 
         "yukk belajar javascript", 
@@ -45,10 +48,6 @@ function filterArr() {
     }
     
     console.log(arrOutput)
-
-    for(let i = 0; i < b.length; i++){
-        
-    }
 };
 
 filterArr()
